@@ -1,0 +1,52 @@
+header {
+  background: url(../images/light.jpg) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+  }
+
+body {
+  padding-bottom: 5rem;
+}
+
+  h1 {
+    font-weight: bold;
+    color: hsla(123, 37%, 38%, 0.9);
+  }
+
+  .slogan {
+    font-size: 1.6rem;
+    font-weight: lighter;
+    color: hsla(0, 0, 100, 0.8)
+  }
+
+main {
+  max-width: 900px;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.project img {
+  width: 100%;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1024) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
